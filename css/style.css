@@ -1,0 +1,59 @@
+/* FORMATTAZIONE PAGINA */
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.main-wrapper{
+  width: 100%;
+  margin: 10px;
+
+}
+/* FINE FORMATTAZIONE PAGINA */
+
+/* INIZIO ELEMENTI */
+.element {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+
+}
+/* FINE ELEMENTI */
+
+/* FORMATTAZIONE SCONTI */
+.sale30 {
+  display: inline-block;
+  position: absolute;
+  background-color: green;
+  z-index: 1;
+  font-size: 10px;
+  right: 1px;
+}
+.sale5{
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  z-index: 1;
+  font-size: 10px;
+  right: 1px;
+
+}
+/* FINE FORMATTAZIONE SCONTI */
+/* HOVER CUORI  */
+.hearts  {
+  display: none;
+  position: absolute;
+  text-align: center;
+  color: RED;
+  z-index: 1;
+  bottom: 10px;
+  right: 150px;
+}
+
+.element:hover .hearts{
+  display: block;
+
+}
+/* FINE HOVER CUORI */
