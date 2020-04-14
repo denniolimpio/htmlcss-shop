@@ -43,11 +43,10 @@
 /* FINE FORMATTAZIONE SCONTI */
 /* HOVER CUORI  */
 .hearts  {
-  display: none;
   position: absolute;
+  display: none;
   text-align: center;
   color: RED;
-  z-index: 1;
   bottom: 10px;
   right: 150px;
 }
